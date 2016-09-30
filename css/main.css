@@ -166,7 +166,58 @@ footer h6 a{
     text-decoration: underline;
 }
 
+/*gallary*/
+.header{
+    min-height: 200px;
+    background-image: url(../img/bani.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-filter: grayscale(60%); 
+    filter: grayscale(60%);
+    position: relative;
+}
+
+.header h2{
+    top:10%;
+    position: absolute;
+    font-size: 50px;
+}
+
+.gallary img {  
+     -webkit-filter: grayscale(100%); 
+     filter: grayscale(100%);
+    width: 100%;
+}  
+
+.gallary img:hover {  
+     -webkit-filter: grayscale(0%);
+     filter: grayscale(0%);
+     cursor: pointer;
+}  
+
+.gallary.row{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 50px 15px 30px 15px;
+}
 
 
+.gallary div.block_img{
+    padding-top: 15px;
+}
 
+.gallary div.block_img:nth-child(4n-3){
+    padding-left: 0px;
+}
 
+.gallary div.block_img:nth-child(3n){
+    padding-right: 0px;
+}
+
+.gallary{
+    border-bottom: solid 2px #eee;
+}
+
+/*gallary*/
