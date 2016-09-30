@@ -216,10 +216,10 @@ footer h6 a{
     padding-right: 0px;
 }
 
-.gallary, #contacts{
+.gallary, #contacts, #price{
     border-bottom: solid 2px #eee;
 }
-#contacts{
+#contacts, #price{
     padding-top: 50px;
     padding-bottom: 30px;
 }
