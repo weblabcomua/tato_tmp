@@ -216,8 +216,26 @@ footer h6 a{
     padding-right: 0px;
 }
 
-.gallary{
+.gallary, #contacts{
     border-bottom: solid 2px #eee;
+}
+#contacts{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#contacts h3{
+    margin-top: 0px;  
+}
+
+#contacts .row{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#contacts .row div{
+    padding: 0px;
 }
 
 /*gallary*/
